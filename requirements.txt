@@ -1,0 +1,12 @@
+# Most of these are pre-installed on Google Colab.
+# Listed for reproducibility and for running outside Colab.
+tensorflow>=2.15
+numpy
+scipy
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+pillow
+datasets>=2.18
+huggingface-hub

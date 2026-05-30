@@ -1,0 +1,31 @@
+# Data — never commit datasets (they are streamed online at runtime)
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Trained models / checkpoints
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+
+# Secrets
+kaggle.json
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# OS / editor / tooling
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
